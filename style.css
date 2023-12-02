@@ -1,0 +1,164 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#vertical_line{
+    border:1px solid lightgray;
+    height: 90px;  
+}
+.image_delivery_main_block{
+    display: flex;
+    gap:20px;
+}
+.images{
+    /* margin-top: px; */
+ width:100px;
+ height:30px;
+}
+.Delivery{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+#searchbar{
+    padding-left:7px;
+    width:50vw ;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height:100%;
+    border-radius: 10px;
+}
+#searchbar>input{
+    padding-left: 3px;
+    border:none;
+    background-color:transparent;
+    height: 45px;
+    border-radius: 10px;
+    width: 90%;  
+}
+.Panncorner{
+    display: flex;
+    width:85%; 
+    margin: 0 auto;
+}
+.cards{
+    width:85vw;
+    margin:auto;
+}
+.scrollable_photo{
+    white-space-collapse: nowrap;
+    overflow-x: scroll;
+    gap:15px;
+}
+.scrollable_photo>img{ 
+    height:200px;
+}
+.category>img{
+    width:100px;
+    height:170px;
+
+}
+.category{
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+   
+}
+.Cards{
+    white-space-collapse: nowrap;
+    overflow-x: scroll;
+    height: 400px; 
+     margin: 90px;
+     margin-top: 10px;
+}
+
+.Whole_Card{ 
+    padding:5px;
+    width:310px;
+    margin:7px;
+    border:1px solid lightgray;
+    border-radius: 10px;
+}
+.Image_section{
+    width:180px;
+    height:140px;
+    margin: 10px;
+}
+.Image_section>img{
+    width:150px;
+}
+.Detaile_section{
+    width:180px;
+    padding:5px;
+    margin: 5px;
+}
+.ul_changes{
+    list-style-type: none;
+    text-decoration: none;
+   line-height: 35px;
+}
+.footer2{
+    /* background-color:whitesmoke;  */
+}
+.discription p{
+ font-size: 0.8rem;
+ width: 400px;;
+}
+.last_line{
+    font-size: 0.8rem;
+}
+.Download{
+    gap:5px;
+}
+
+@media screen and (max-width:768px){
+nav{
+    flex-direction: column;  
+    align-items: center;
+    padding:10px;
+}
+#vertical_line{
+    display:none;
+}
+#nav_delivery{
+    text-align: center;
+}
+#searchbar>input{
+    width:auto;
+}
+.Panncorner{
+    display: none;
+}
+#cards{
+    align-items: center;
+}
+#footer1{
+    flex-direction: column;
+    align-items: center;
+}
+.cat{
+    margin-left: 120px;
+}
+.cat2{
+    margin-left: 120px;   
+}
+#cards_header{
+    padding-left: 1px;
+}
+.footer2{
+    flex-direction: column;
+    margin-left: 1px;
+    padding-left: 1px;
+    align-items: center;
+}
+.icons{
+    margin-bottom: 25px;
+}
+.last_line{
+    align-items: center;
+}
+
+}
